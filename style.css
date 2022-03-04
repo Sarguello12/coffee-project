@@ -1,38 +1,18 @@
+/*full page selectors*/
 body{
     background-image: url("img/pexels-negative-space-34085.jpg");
     background-size: cover;
-}
-
-nav {
-    height: 175px;
-    background-color: burlywood;
-    border: solid  5px;
-}
-
-div {
-    border-collapse: collapse;
-    margin: 15px 0;
-}
-
-input[type=text] {
-    background-color: antiquewhite;
-}
-
-select {
-    background: red;
-}
-
-section {
-    height: 150px;
 }
 
 h2 {
     font-family: Anton, sans-serif;
 }
 
-ul, li {
-    border: 1px solid black;
-    padding: 5px 10px;
+/*nav bar selectors*/
+nav {
+    height: 175px;
+    background-color: burlywood;
+    border: solid black 5px;
 }
 
 nav h1 {
@@ -47,8 +27,9 @@ nav p {
     font-size: 25px;
 }
 
-.form-container {
-    background-color: burlywood;
+/*output form selectors*/
+div {
+    margin: 15px 0;
 }
 
 .font1 {
@@ -62,4 +43,30 @@ nav p {
     color: white;
     font-family: Abel, sans-serif;
     font-size: 20px;
+}
+
+/*form container styling*/
+section {
+    height: 150px;
+}
+
+.form-container {
+    border: solid black 5px;
+    border-top: 0;
+    background-color: burlywood;
+}
+
+/*form styling*/
+select.form-select {
+    background: antiquewhite;
+    font-family: Abel, sans-serif;
+}
+
+input[type=text] {
+    background-color: antiquewhite;
+    font-family: Abel, sans-serif;
+}
+
+label {
+    font-family: Anton, sans-serif;
 }
